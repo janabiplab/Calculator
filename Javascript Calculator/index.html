@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <p>Calculator</p>
+        <div class="main">
+              <div class="div1"><input type="text" id="display" ></div>
+              <div class="clear div2"><button id="back" onclick="backspace()">CE</button></div>
+              <div class="divsin"><button class="SIN" onclick="sin()">sin</button></div>
+              <div class="divcos"><button class="Cos" onclick="cos()">cos</button></div>
+              <div class="divtan"><button class="Tan" onclick="tan()">tan</button></div>
+              <div class="divlog"><button class="Log" onclick="Log()">log</button></div>
+              <div class="clear divac"><button id="ac" onclick="ac()">AC</button></div>
+              <div class="divfact"><button id="facto" onclick="fact()">x!</button></div>
+              <div class="div("><button class="btn">(</button></div>
+              <div class="div)"><button class="btn">)</button></div>
+              <div class="div7"><button class="btn">7</button></div>
+              <div class="div8"><button class="btn">8</button></div>
+              <div class="div9"><button class="btn">9</button></div>
+              <div class="sign divmod"><button class="btn">%</button></div>
+              <div class="sign diff"><button class="btn">-</button></div>
+              
+              
+              <div class="sign divide"><button class="btn">&divide;</button></div>
+              <div class="div14"><button class="btn">^</button></div>
+              <div class="div9"><button class="PI" onclick="pi()"> &pi; </button></div>
+              <div class="div26"><button class="E" onclick="e()">e</button></div>
+              <div class="div17"><button class="btn">4</button></div>
+              <div class="div18"><button class="btn">5</button></div>
+              <div class="div19"><button class="btn">6</button></div>
+              <div class="sign plus"> <button class="btn">+</button></div>
+              <div class="sign divx"><button class="btn">x</button></div>
+              <div class="div28"><button onclick="power()">x<sup>y</sup></button></div>
+              
+              <div class="div27"><button class="Square" onclick="sqrt()">&radic;</button></div>
+             
+             
+              <div class="div29"><button class="btn">0</button></div>
+          
+              <div class="div22"><button class="btn">1</button></div>
+              <div class="div23"><button class="btn">2</button></div>
+              <div class="div24"><button class="btn">3</button></div>
+              <div class="div30"><button class="btn">.</button></div>
+              
+             <div class="result"> <button id="eval" onclick="equal()">=</button></div>
+              
+           
+              
+           
+    </div>
+    <script src="utilize.js"></script>
+</body>
+</html>
